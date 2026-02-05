@@ -1,0 +1,39 @@
+.flexContainer {
+    border: 10px solid rgb(137, 65, 65);
+    display : flex;
+    height : 80vh; 
+    /* justify-content : space-evenly; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around;  */
+    /* justify-content: space-between;  */
+    /* justify-content: center; */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-content: center; */
+    /* align-content: flex-start; */
+}
+.flexitem {
+    border: 1px solid red;
+    background-color: lightblue;
+    color: darkblue ;
+    font-size: 24px;
+    padding : 10px;
+    height : 100px;
+    width: 100px;
+}
+.flexitem:nth-child(2) {
+    order :-1;
+    align-self: flex-end;
+    /* align-self: center; */
+    /* align-self: flex-start; */
+}

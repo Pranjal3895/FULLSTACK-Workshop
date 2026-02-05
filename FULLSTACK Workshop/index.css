@@ -1,0 +1,57 @@
+/*Universal selector*/
+*{
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: darkslategray;
+    background-color: antiquewhite;
+    border: 10px solid rgb(47, 79, 69);
+}
+
+/* id Selector */
+#a{
+    color: darkblue;
+    background-color: lightblue;
+}
+/* class Selector */
+.b{
+    color: darkgreen;
+    background-color: beige;
+}
+.c{
+    color: darkred;
+    font-size: 32px;
+    background-color: lightpink;
+}
+
+/*Pseudo elements*/
+li:nth-child(2){
+    color: orange;
+    font-size: 200%;
+}
+h1:nth-child(2){
+    color: purple;
+    font-size: 200%;
+    border: 5px dashed violet;
+}
+
+/*Pseudo classes*/
+#v::after{
+    content: "My name is Pranjal Sharma."; 
+    color: red;
+    font-size: 150%;
+    background-color: yellow;
+}
+#v::before{
+    content: "Hello! ";
+    color: brown;
+    font-size: 150%;
+    background-color: lightgreen;
+}
+
+#v::first-letter{
+    color: white;
+    font-size: 64px;
+}
